@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style/style.css">
+</head>
+<body>
+    <form id="addForm">
+        <label class="field">
+            <p>Имя:</p>
+            <input name="firstName" type="text" >
+        </label>
+        <label class="field">
+            <p>Фамилия:</p>
+            <input name="secondName" type="text" >
+        </label>
+        <label for="field">
+            <p>Возраст:</p>
+            <input name="age" type="number" min="0">
+        </label>
+        <button>Добавить карточку</button>
+    </form>
+    <div id="userCardsContainer"></div>
+
+    <script src="script/script.js"></script>
+</body>
+</html>

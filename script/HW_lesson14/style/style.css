@@ -1,0 +1,36 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+    background-color: rgb(150, 196, 227);
+  }
+
+  form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+    padding: 10px;
+    background-color: rgb(61, 133, 109);
+  }
+
+  input, button {
+    margin: 5px;
+    padding: 8px;
+  }
+
+  #userCardsContainer {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 5px;
+    text-align: center;
+    background-color: rgb(223, 162, 87);
+  }
